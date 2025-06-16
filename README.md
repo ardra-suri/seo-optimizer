@@ -1,5 +1,8 @@
 # 🔍 SEO Optimizer – Competitor Content Analyzer
 
+[![CI](https://github.com/yourusername/seo-optimizer/actions/workflows/ci.yml/badge.svg)](https://github.com/yourusername/seo-optimizer/actions/workflows/ci.yml)
+[![Streamlit App](https://img.shields.io/badge/Live-Dashboard-brightgreen)](https://seo-optimizer-yourusername.streamlit.app)
+
 SEO Optimizer is a semantic content comparison tool that helps writers, marketers, and product teams benchmark their content against competitors. It scrapes both pages, performs NLP-powered analysis, and shows which keywords you're missing — helping you close content gaps and improve rankings.
 
 
