@@ -1,0 +1,14 @@
+README.md
+setup.py
+scraper/__init__.py
+scraper/core.py
+scraper/analysis/__init__.py
+scraper/analysis/content_analyzer.py
+seo_scraper.egg-info/PKG-INFO
+seo_scraper.egg-info/SOURCES.txt
+seo_scraper.egg-info/dependency_links.txt
+seo_scraper.egg-info/requires.txt
+seo_scraper.egg-info/top_level.txt
+tests/__init__.py
+tests/test_content_analyzer.py
+tests/test_scraper.py
