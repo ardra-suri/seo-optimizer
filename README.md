@@ -17,14 +17,6 @@ Built with:
 
 ---
 
-## 📸 Demo
-
-🔗 **Live App**: [seo-optimizer-yourusername.streamlit.app](https://seo-optimizer-ardra-suri.streamlit.app)
-
-![App Screenshot](//)
-
----
-
 ## 🚀 Features
 
 - ✅ Scrapes content from any public webpage
