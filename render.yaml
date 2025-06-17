@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: seo-optimizer
+    env: docker
+    plan: free
+    autoDeploy: true
