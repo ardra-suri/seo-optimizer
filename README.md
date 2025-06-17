@@ -1,6 +1,6 @@
 # 🔍 SEO Optimizer – Competitor Content Analyzer
 
-[![Streamlit App](https://img.shields.io/badge/Live-Dashboard-brightgreen)]()
+[![Render App](https://img.shields.io/badge/Live-Dashboard-brightgreen)](https://seo-optimizer-50y1.onrender.com)
 
 SEO Optimizer is a semantic content comparison tool that helps writers, marketers, and product teams benchmark their content against competitors. It scrapes both pages, performs NLP-powered analysis, and shows which keywords you're missing — helping you close content gaps and improve rankings.
 
@@ -12,6 +12,13 @@ Built with:
 - 📊 Live dashboard (`Streamlit`, `Plotly`)
 - 🗃️ Persistent storage (`SQLite`)
 - ✅ CI/CD pipeline (`GitHub Actions`)
+
+---
+
+## 📸 Demo
+
+🔗 **Live App**: [seo-optimizer-yourusername.streamlit.app](https://seo-optimizer-50y1.onrender.com)
+
 
 ---
 
@@ -51,3 +58,21 @@ pip install -r requirements.txt
 
 # 3. Run the dashboard
 streamlit run dashboard/app.py
+```
+
+---
+
+## 🚧 Next Steps & Future Enhancements
+
+Below are planned upgrades to make SEO Optimizer more robust, enterprise-ready, and user-friendly:
+
+### 🔐 1. User Authentication & Profiles
+- Add signup/login (email/password or OAuth via GitHub/Google)  
+- Personalize dashboards by user  
+- Secure data so each user only views their own analysis history
+
+### 🗄️ 2. Sidebar-based History Viewer
+- Use Streamlit’s sidebar to let users:
+  - Browse past analyses with filters (date, keyword, similarity score)  
+  - Re-run or delete selected entries  
+  - Export history as CSV or report
