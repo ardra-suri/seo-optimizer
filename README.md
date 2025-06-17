@@ -17,7 +17,7 @@ Built with:
 
 ## 📸 Demo
 
-🔗 **Live App**: [seo-optimizer-yourusername.streamlit.app](https://seo-optimizer-50y1.onrender.com)
+🔗 **Live App**: [seo-optimizer-ardra-suri.onrender.com](https://seo-optimizer-50y1.onrender.com)
 
 
 ---
