@@ -24,13 +24,13 @@ Built with:
 
 ## 🚀 Features
 
-- ✅ Scrapes content from any public webpage
-- 🧠 Compares content against competitor using **USE embeddings**
-- 🔍 Extracts top missing SEO keywords
-- 🗃️ Saves historical analysis to SQLite
-- 📊 Interactive dashboard for exploration
-- 🧪 85%+ test coverage with `pytest`
-- ☁️ Auto-tested and deployed using **GitHub Actions + Streamlit Cloud**
+-  Scrapes content from any public webpage
+-  Compares content against competitor using **USE embeddings**
+-  Extracts top missing SEO keywords
+-  Saves historical analysis to SQLite
+-  Interactive dashboard for exploration
+-  85%+ test coverage with `pytest`
+-  Auto-tested and deployed using **GitHub Actions + Streamlit Cloud**
 
 ---
 
