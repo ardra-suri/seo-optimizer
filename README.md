@@ -1,10 +1,9 @@
 # 🔍 SEO Optimizer – Competitor Content Analyzer
 
-[![CI](https://github.com/yourusername/seo-optimizer/actions/workflows/ci.yml/badge.svg)](https://github.com/yourusername/seo-optimizer/actions/workflows/ci.yml)
-[![Streamlit App](https://img.shields.io/badge/Live-Dashboard-brightgreen)](https://seo-optimizer-yourusername.streamlit.app)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Streamlit App](https://img.shields.io/badge/Live-Dashboard-brightgreen)]()
 
-A full-stack SEO analysis tool that compares your website content against competitors using **semantic embeddings** and **NLP techniques**.
+SEO Optimizer is a semantic content comparison tool that helps writers, marketers, and product teams benchmark their content against competitors. It scrapes both pages, performs NLP-powered analysis, and shows which keywords you're missing — helping you close content gaps and improve rankings.
+
 
 Built with:
 - 🔗 Web scraping (`requests`, `BeautifulSoup`)
@@ -13,14 +12,6 @@ Built with:
 - 📊 Live dashboard (`Streamlit`, `Plotly`)
 - 🗃️ Persistent storage (`SQLite`)
 - ✅ CI/CD pipeline (`GitHub Actions`)
-
----
-
-## 📸 Demo
-
-🔗 **Live App**: [seo-optimizer-yourusername.streamlit.app](https://seo-optimizer-yourusername.streamlit.app)
-
-![App Screenshot](https://user-images.githubusercontent.com/yourusername/seo-dashboard-screenshot.png)
 
 ---
 
