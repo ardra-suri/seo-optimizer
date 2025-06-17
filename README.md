@@ -66,12 +66,12 @@ streamlit run dashboard/app.py
 
 Below are planned upgrades to make SEO Optimizer more robust, enterprise-ready, and user-friendly:
 
-### 🔐 1. User Authentication & Profiles
+### 1. User Authentication & Profiles
 - Add signup/login (email/password or OAuth via GitHub/Google)  
 - Personalize dashboards by user  
 - Secure data so each user only views their own analysis history
 
-### 🗄️ 2. Sidebar-based History Viewer
+### 2. Sidebar-based History Viewer
 - Use Streamlit’s sidebar to let users:
   - Browse past analyses with filters (date, keyword, similarity score)  
   - Re-run or delete selected entries  
