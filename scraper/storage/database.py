@@ -14,7 +14,7 @@ class ScrapeDB:
         :param db_path: Path to the SQLite database file.
         """
         self.db_path = db_path
-        # Ensure that the database directory exists (e.g., data/ directory)
+        # Ensure that the database directory exists
         directory = os.path.dirname(db_path)
         if directory and not os.path.exists(directory):
             os.makedirs(directory, exist_ok=True)
@@ -47,7 +47,6 @@ class ScrapeDB:
                     timestamp TEXT
                 )
             """)
-            # Optional: indexes for performance on frequently queried fields
             cursor.execute("CREATE INDEX IF NOT EXISTS idx_scrapes_url ON scrapes(url)")
             cursor.execute("CREATE INDEX IF NOT EXISTS idx_analyses_timestamp ON analyses(timestamp)")
             conn.commit()
