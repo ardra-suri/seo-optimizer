@@ -4,13 +4,10 @@ import os
 import sys
 import ast
 
-# === ✅ Ensure 'scraper/' is available no matter where we run from ===
 CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))
 PROJECT_ROOT = os.path.abspath(os.path.join(CURRENT_DIR, ".."))
 if PROJECT_ROOT not in sys.path:
     sys.path.insert(0, PROJECT_ROOT)
-
-# === 🧠 Now we can safely import scraper modules ===
 import streamlit as st
 from scraper.storage.database import ScrapeDB
 import pandas as pd
